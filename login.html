@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="images/667-logo.ico" />
+        <title>Ekip la revue rap</title>
+        <script src="js/ekip.js"></script>
+    </head>
+
+    <body id="body">
+        <header>
+            <div class="titre_principal">
+                <img src="images/667-logo.jpg" width="59px" height="60px" alt="Logo de Zozor" class="logo" />
+                <h1>Ekip</h1>
+                <h2>La Revue Rap</h2>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="shop.html">Magasin</a></li>
+                    <li><a href="login.html">S'identifier</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form class="popup" method="POST" action="" id="form">
+
+            <label for="login">Identifiant</label> : <br>
+            <input type="text" id="login" name="login" required minlength="5" maxlength="10" ><br>
+
+            <label for="mail">Adresse mail</label> : <br>
+            <input type="email" id="mail" name="mail"><br>
+
+            <label for="password">Mot de passe</label> : <br>
+            <input type="password" id="password" name="password" required minlength="8" onchange="visible()"><br>
+
+            <div class="button_list">
+                <input type="button" id="effacer" name="effacer" value="Effacer" onclick="reset()">
+                <input type="submit" id="valider" name="valider" value="Valider" onclick="connect()">
+            </div>
+        </form>
+    </body>
+</html>
