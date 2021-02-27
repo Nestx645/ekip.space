@@ -1,3 +1,13 @@
+/*
+
+===          ===     =============   ===========        ==========    ====      |
+   ===    ===              |         \                  |             |   \     |
+      ====         X       |    T     \ ========  S     ========   E  |    \    |   N
+   ===    ===              |                   /        |             |     \   |
+===          ===           |         =========/   *     ==========    |      ====
+
+2020
+*/
 function soon() {
     zone = document.getElementById("soon_available");
     phrase = "Bientot disponible";
